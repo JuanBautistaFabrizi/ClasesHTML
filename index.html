@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Perros</title>
 </head>
 
 <body>
     <!-- Usar un header o nav al comienzo -->
     <!-- <header></header> -->
-    <h1>Pagina de perros</h1>
+    <h1 class="titulo">Pagina de perros</h1>
     <nav class="nav">
         <ul>
-    <!-- El href nos direcciona a la section que tenga ese id -->
+            <!-- El href nos direcciona a la section que tenga ese id -->
             <a href="#nosotros">
                 <li>Nosotros</li>
             </a>
@@ -27,8 +27,10 @@
 
 
 
+    <div class="span">
+        <span>soy un titulo?</span>
+    </div>
 
-    <span style="font-size: 100px">soy un titulo?</span>
 
     <!-- utilizamos los div para anidar elementos y poder manipularlos -->
     <div class="parrafo" id="parrafo">
@@ -41,25 +43,27 @@
 
     <br>
 
-    <a href="https://es.wikipedia.org/wiki/Canis_familiaris">wiki perros</a>
+    <a href="https://es.wikipedia.org/wiki/Canis_familiaris" target="_blank">wiki perros</a>
 
     <!-- No utilizar el tag br,se debe hacer con css el salto de línea -->
     <br>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo consequuntur necessitatibus eligendi nesciunt
+    <p class="parrafo1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo consequuntur necessitatibus eligendi nesciunt
         mollitia eaque tenetur, optio cupiditate cum minus similique perspiciatis beatae alias numquam velit consequatur
         delectus earum iusto!</p>
 
     <!-- el hr renderiza un línea horizontal -->
     <hr>
-    
+
     <!-- Sirve para generar secciones en la página -->
     <section id="nosotros">
         <div class="nosotros">Sección sobre nosotros</div>
-    </section> 
+        <p>Lorem,<h2>Hola</h2> <p> ipsum dolor sit amet consectetur adipisicing elit. Repellendus totam laboriosam ipsa. Quaerat, nesciunt. Culpa iusto veniam, quo illum molestias cum harum temporibus laboriosam ipsam, impedit id. Quasi, libero molestias.</p>
+
+    </section>
     
     <img src="https://www.dogalize.com/wp-content/uploads/2016/11/concierto-gilberto-santa-rosa-Denny-rivera-perros-fundacion-perros-200x200.jpg"
-        alt="perro escuchando musica">
+        alt="perro escuchando musica" class="perrito">
 
     <!-- Utilizar iframe para insertar otro html en nuestra página -->
 
@@ -70,7 +74,7 @@
 
     <!-- Terminar con un footer -->
     <footer>Todos los derechos reservados</footer>
-
+        
 
 </body>
 
